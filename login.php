@@ -8,7 +8,9 @@ session_destroy();
 
 }
 
-		if ($_POST['usuario'] == 'luis' && $_POST['senha'] == 'japa') {
+		if ($_POST['usuario'] == 'admin' && $_POST['senha'] == 'admin') {
+			
+			
 			$_SESSION['logado'] = true;
 			include('menu.php');
 			
@@ -22,8 +24,4 @@ session_destroy();
 			<div class="jumbotron jumbotron-fluid py-3">
     <footer class="footer-copyright text-center py-3">
       
-      <?php echo "Visualizações=".$_SESSION['views']; ?>
-    </footer>
-  </div>
-
-//É muito divertido
+      <?php 

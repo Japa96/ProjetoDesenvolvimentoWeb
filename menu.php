@@ -21,10 +21,10 @@
         <div class="row navbar">
           <div class="col-md-1">
           </div>
-          <button type="submit" name= "clientes" class="btn btn-warning mb-2 ml-4 col-md-2">Clientes</button>
-          <button type="submit" name="produtos" class="btn btn-warning mb-2 ml-4 col-md-2">Produto</button>
-          <button type="submit" name="pedidos" class="btn btn-warning mb-2 ml-4 col-md-2">Pedidos</button>
-          <button type="submit" name="index" class="btn btn-warning mb-2 ml-4 col-md-2">Sair</button>
+          <button type="submit" name= "btnClientes" class="btn btn-warning mb-2 ml-4 col-md-2">Clientes</button>
+          <button type="submit" name="btnProdutos" class="btn btn-warning mb-2 ml-4 col-md-2">Produto</button>
+          <button type="submit" name="btnPedidos" class="btn btn-warning mb-2 ml-4 col-md-2">Pedidos</button>
+          <button type="submit" name="btnIndex" class="btn btn-warning mb-2 ml-4 col-md-2">Sair</button>
           <div class="col-md-1">
           </div>
         </div>
